@@ -1,0 +1,8 @@
+experiment_name: DebugDebugTestSDK2DockerUV
+git:
+    email: eziznadirov@gmail.com
+    remote_url: https://competommc@dev.azure.com/competommc/Marketplace/_git/mp-ds-aml-base
+    username: AzizNadirov
+pipeline_description: basic pipeline example on azure ml sdk v2
+pipeline_name: AML-SDK2-Template
+timestamp: '2025-01-29 22:59:47'

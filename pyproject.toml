@@ -1,0 +1,39 @@
+[project]
+name = "mp-ds-aml-base"
+version = "0.1.0"
+description = "Base template for Competo DS Azure ML projects"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "azure-ai-ml>=1.24.0",
+    "azure-identity>=1.19.0",
+    "azure-keyvault>=4.2.0",
+    "azure-storage-blob>=12.24.1",
+    "ipython>=8.31.0",
+    "loguru>=0.7.3",
+    "matplotlib>=3.10.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "pip>=25.0",
+    "pre-commit>=4.1.0",
+    "pyarrow>=19.0.0",
+    "python-dotenv>=1.0.1",
+    "scikit-learn>=1.6.1",
+    "setuptools>=75.8.0",
+    "tqdm>=4.67.1",
+    "xlsxwriter>=3.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "loguru>=0.7.3",
+    "matplotlib>=3.10.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "pre-commit>=4.1.0",
+    "pyarrow>=19.0.0",
+    "pydantic>=2.10.5",
+    "python-dotenv>=1.0.1",
+    "setuptools>=75.8.0",
+    "xlsxwriter>=3.2.1",
+]
